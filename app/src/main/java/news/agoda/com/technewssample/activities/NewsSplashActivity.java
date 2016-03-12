@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.os.Handler;
 
 import news.agoda.com.technewssample.BaseActivity;
+import news.agoda.com.technewssample.R;
 import news.agoda.com.technewssample.utils.AppConstants;
 
 /**
@@ -17,7 +18,8 @@ public class NewsSplashActivity extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-//        setContentView(R.layout.);
+        setContentView(R.layout.activity_splash);
+
         backKeyPressed = false;
 
         new Handler().postDelayed(new Runnable() {
